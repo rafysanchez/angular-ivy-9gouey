@@ -1,0 +1,15 @@
+<div>
+  <label>Mask</label>
+  <input type="text"
+  [(ngModel)]="value"
+  [specialCharacters]="maskOption.specialCharacters"
+  [prefix]="maskOption.prefix"
+  [suffix]="maskOption.suffix"
+  [dropSpecialCharacters]="maskOption.dropSpecialCharacters"
+  [clearIfNotMatch]="maskOption.clearIfNotMatch"
+  [patterns]="maskOption.patterns"
+  [mask]="maskOption.mask"
+  [showMaskTyped]="maskOption.showMaskTyped"
+  [placeHolderCharacter]="maskOption.placeHolderCharacter">
+  {{value}}
+</div>
